@@ -14,3 +14,6 @@ A web app to convert temperature from Fahrenheit to Celsius and vice versa.
 - First of all go to the main folder.
 - Click on index.html to open it on browser.
 - Now you can interact with the app on browser.
+
+## Live Link
+-https://anum23432.github.io/Temperature-Converter.github.io/
