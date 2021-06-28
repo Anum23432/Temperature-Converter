@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+
     <form id="tempCalc" onsubmit="calculateTemp(); return false">
-    <div id="main">
-        <h2>Temperature Convertor</h2><br><br><br>
-    <label for="">Enter Temperature</label>
-    <input id="temp" type="number" placeholder="Temperature"><br><br><br>
-    <select id="temp_diff" name="temp_diff"><br><br><br>
-        <option  value="fah" >Celsius</option>
-        <option  value="cel">Fahrenheit</option>
-    </select><br><br><br>
-    <input id="submit" type="submit" name="temp"><br><br><br>
-    <span id ="resultContainer"></span><br><br><br>
+        <div id="main"><br><br>
+            <h2>Temperature Convertor</h2><br><br>
+            <label for="">Enter Temperature</label>
+            <input id="temp" type="number" placeholder="Temperature"><br><br><br><br>
+            <select id="temp_diff" name="temp_diff"><br><br><br>
+                <option value="fah">Celsius</option>
+                <option value="cel">Fahrenheit</option>
+            </select><br><br><br>
+            <input id="submit" type="submit" name="temp"><br><br><br>
+            <span id="resultContainer"></span><br><br><br>
 
-     </div>
-     
+        </div>
+
     </form>
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
 
-     <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
