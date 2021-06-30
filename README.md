@@ -1,4 +1,4 @@
-## Temperature Calculator
+## Temperature Conversion app
 ​
 A web app to convert temperature from Fahrenheit to Celsius and vice versa.
 ​
