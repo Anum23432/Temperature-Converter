@@ -20,13 +20,13 @@ body{
 h2{
     margin-left: 70px;
     font-family: 'Times New Roman', Times, serif;
-    color:  red; 
+    color:  black; 
     
 }
 label{
     padding:13px;  
     font-weight: bold ;
-    color:red;
+    color:black;
     margin-left: 20px;
 }
 #temp{
@@ -38,9 +38,9 @@ label{
 
 }
 #temp:hover{
-  background-color: orange;
+  background-color: rgb(255, 4, 255);
     box-shadow: 0 0 10px 0 orangered;
-    color:red;
+    color:black;
 }
 #temp_diff{
     padding:5px 10px;
@@ -53,9 +53,9 @@ label{
     
 }
 #temp_diff:hover{
-  background-color: orange;
-    box-shadow: 0 0 10px 0 orangered;
-    color:red;
+  background-color: rgb(255, 5, 255);
+    box-shadow: 0 0 10px 0 rgb(148, 137, 133);
+    color:black;
 }
   
     
@@ -74,16 +74,16 @@ label{
     
 
  #submit:hover{
-    background-color: orange;
+    background-color: rgb(250, 10, 250);
     box-shadow: 0 0 10px 0 orangered;
-    color:red;
+    color:black;
 
 } 
 span{
     margin-left: 140px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color:red;
+    color:black;
 
 }
 .ocean { 
@@ -138,4 +138,70 @@ span{
     50% {
       transform: translateY(5px);
     }
+  }
+@media only screen and (max-width: 700px) {
+    #main{
+      border: transparent;
+      border-radius: 50%;
+      width:350px;
+      height: 350px;
+      margin-top: 60px;
+      align-items: center;
+      background-color: rgba(255, 166, 0, 0.801);
+      box-shadow: 0 0 100px 0 orangered;
+      
+  }
+  h2{
+      margin-left: 56px;
+      font-family: 'Times New Roman', Times, serif;
+      color:black; 
+   
+  }
+  label{
+      padding:10px;  
+      font-weight: bold ;
+      color:black;
+      margin-left: 70px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      
+  }
+  #temp{
+      padding:5px;
+      border:none;
+      box-shadow: 0 0 10px 0 purple;
+      background-color: skyblue;
+      border-radius: 10px;
+      margin-left: 75px;
+  
+  } 
+  #temp_diff{
+    padding:5px 10px;
+    margin-left: 120px;
+    margin-bottom:15px;
+    border-radius: 8px;
+    background-color: skyblue;
+    border:transparent;
+    box-shadow: 0 0 10px 0 purple;
+    
+}
+span{
+  margin-left: 140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color:red;
+
+}
+#submit{
+  margin-left: 130px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 purple;
+  padding:12px;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  background-color: skyblue;
+  margin-bottom: 10px;
+  
+  }
   }
